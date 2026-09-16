@@ -20,10 +20,15 @@ Un lenguaje de marcas organiza información mediante una sintaxis basada en marc
    
     [VS code](https://code.visualstudio.com/)
 
+    ![vs code](https://cdn-1.webcatalog.io/catalog/vs-code/vs-code-social-preview.png?v=1714776407457)
 2. ### Instalción de plugins
     
-    - La instalación hay que acceder a VS code -----> Apartado de plugins ------> Busca,ps 
+    - La instalación hay que acceder a VS code -----> Apartado de plugins ------> Busca en los plugins el nombre y le damos a isntalr
 
     - Lista de de plugins
       - live preview
+      - HTML CSS Support
+      - XML
+  
+
 
