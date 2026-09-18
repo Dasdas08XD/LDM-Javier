@@ -60,7 +60,12 @@ git push -u origin main
 git config --global alias.acp '!git add . && git commit -m "$1" && git push -u origin main #'
 ```
 - Así se guarda un comando con la ruta (acp) , se puede cambiar el nombre por otro. En este caso usé acp como sinónimo de: Add . - Commit - Push 
+  
 - El símbolo de "$1" indica que ese espacio de introucir el nombre de guardado, se reserva para introducir después.
-- 
+  
+- La '!....#' del comando es muy importante:
+  - Este comando se tiene que ejecutar con comillas de solo una unidad ('). 
+  - La exclamación es para indicarle a git "No trates esto como un solo comando de Git. Ejecuta todo lo que sigue directamente en la terminal del sistema operativo (Bash)."
+  - Todo lo que escribas después de un # es ignorado por completo por la terminal. Sino push colocaría el mesnaje que pongamos en el comando y daría error.
 ```bash
 git acp "Nombre que tu quieras"
