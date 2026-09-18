@@ -54,4 +54,13 @@ git remote add origin https://github.com/Dasdas08XD/LM-UD1.git
 git branch -m main
 git push -u origin main
 ```
-Comentario neuvo
+6. ### Como usar solo un comando de guardado y subida.
+   En este orden usar:
+```bash
+git config --global alias.acp '!git add . && git commit -m "$1" && git push -u origin main #'
+```
+- Así se guarda un comando con la ruta (acp) , se puede cambiar el nombre por otro. En este caso usé acp como sinónimo de: Add . - Commit - Push 
+- El símbolo de "$1" indica que ese espacio de introucir el nombre de guardado, se reserva para introducir después.
+- 
+```bash
+git acp "Nombre que tu quieras"
