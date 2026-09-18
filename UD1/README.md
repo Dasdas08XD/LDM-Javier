@@ -24,11 +24,19 @@ Un lenguaje de marcas organiza información mediante una sintaxis basada en marc
 2. ### Instalción de plugins
     
     - La instalación hay que acceder a VS code -----> Apartado de plugins ------> Busca en los plugins el nombre y le damos a isntalr
-
-    - Lista de de plugins
-      - live preview
-      - HTML CSS Support
-      - XML
+    #### Enlaces
+      - [LivePriview](https://marketplace.visualstudio.com/items?itemName=ms-vscode.live-server)
+      - [HTML CSS Support](https://marketplace.visualstudio.com/items?itemName=ecmel.vscode-html-css)
+      - [XML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-xml)
+      - [Markdown all in one](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
   
+    |Nombre|Def|foto|
+    |------|---|----|
+    |Live preview|Sirve para la previsualización del código en formato visual con el que tiene que salir.|![LivePreview](img/live.png)|
+    |HTML CSS Support|Es un complemento que se instala en el editor para añadir funciones extra, mejorar la ayuda visual y agilizar la escritura de código web.|![HTML CSS Support](img/html.png)|
+    |XML|Herramienta que añade soporte avanzado para leer, escribir, validar y dar formato a documentos en este lenguaje de marcado|![XML](img/xml.png)|
+    |Markdown all in one|Es una extensión muy popular para editores de código como Visual Studio Code que reúne las herramientas esenciales para escribir y editar archivos en formato Markdown de forma rápida y cómoda|![MarkDown all in one](img/Markdown.png)|
 
-
+3. ### Instalar Git
+```bash
+sudo apt install GIT
