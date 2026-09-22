@@ -69,3 +69,11 @@ git config --global alias.acp '!git add . && git commit -m "$1" && git push -u o
   - Todo lo que escribas después de un # es ignorado por completo por la terminal. Sino push colocaría el mesnaje que pongamos en el comando y daría error.
 ```bash
 git acp "Nombre que tu quieras"
+```
+7. ### Restaurar trabajo desde github
+
+Git clone solo se hace una vez en un nuevo sitio de trabajo , luego solo tenemos que hacer un envio con (acp)
+```bash
+git clone (url del repositorio) 
+```
+
