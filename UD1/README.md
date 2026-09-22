@@ -76,4 +76,6 @@ Git clone solo se hace una vez en un nuevo sitio de trabajo , luego solo tenemos
 ```bash
 git clone (url del repositorio) 
 ```
-
+Luego para las proximas veces solo hay que hacer el sigueinte comando para que se descarga, cuidado con modificar antes del pull peude haber contradicciones de los archivos.
+```bash 
+git pull
