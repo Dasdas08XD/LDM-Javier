@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang='Es'>
+<head>
+    <meta charset='UTF-8'>
+    <title>Validación de usuario</title>
+</head>
+<body>
+    <form action="servicio.php" method="get">
+
+        <fieldset>
+        <legend>Datos Usuario</legend>
+        <label for=“usuario">Usuario</label>
+            <input type="text“ id="usuario" name="usuario" placeholder="(Nombre y apellidos)" maxlength="100" size="20" />
+        <br>
+        <input type="radio" name="ocupacion" id="Profesor" value="Profesor" />
+            <label for="Profesor"> Profesor</label> 
+            <br/>
+        <input type="radio" name="ocupacion" id="Estudiante" value="Estudiante" checked="checked" />
+            <label for="Estudiante"> Estudiante</label>
+        </fieldset>
+
+
+        <fieldset> 
+        <legend>Donde se produce</legend>
+        <input type="radio"  name="area"  id="departamento" value="departamento" />
+           <label for="radio">Todo el departamento </label>
+           <br>
+        <input type="radio"  name="area"  id="aula" value="aula" />
+           <label for="radio">Todo el aula</label>
+           <br>
+        <input type="radio"  name="area"  id="equipo" value="equipo" />
+           <label for="radio">Solo un equipo</label>
+           <br>
+        <label for="Ident">Identifica el area, departamento o nombre del equipo </label>
+            <input type="text" id="Ident" name="Ident" placeholder="Dep,Area,Equipo"  />
+
+
+        </fieldset>
+        <input type="submit" value="Entrar" />
+        <input type="reset" value="Limpiar" />
+        
+    </form>
+</body>
+</html>
