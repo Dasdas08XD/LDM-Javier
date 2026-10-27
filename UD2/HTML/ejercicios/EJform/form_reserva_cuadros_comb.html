@@ -9,11 +9,45 @@
         <fieldset>
             <legend>Datos del solicitante</legend>
                 <label for="Usuario">Nombre del solicitante de la reserva</label>
+                <input type="text" id="Usuario" name="Usuario" maxlength="100" autofocus placeholder="Nombre completo">
                 <br>
-                <input type="text" id="Usuario" name="Usuario" maxlength="100" autofocus>
-                <br>
-                <label for=""Usuario">Teléfono de contacto</label>
-                <input type="text" id="Usuario" name="Usuario" pattern="+[0-9]{1,4}">
+                <label for="Usuario">Teléfono de contacto</label>
+                <input type="tel" id="Usuario" name="Usuario" pattern="\+[0-9]{1,4}[0-9]{1,4}-[0-9]{1,4}-[0-9]{1,4}" placeholder="+Pref/Número 9 dígitos">
         </fieldset>
+        <fieldset>
+            <legend>Datos de la reserva</legend>
+                <label>Habitación</label>
+                <br>
+                    <select name="Habitación" required>
+                        <option value="" selected disabled ></option>
+                        <option value="1">Verde</option>
+                        <option value="2">Rojo</option>
+                        <option value="3">Azul</option>
+                        <option value="4">Amarillo</option>
+                    </select>
+                <br>
+                <label>Ocupación</label>
+                <br>
+                    <select name="Ocupación" required>
+                        <option value="" selected disabled></option>
+                        <option value="1">Individual</option>
+                        <option value="2">Doble</option>
+                    </select>
+                <br>
+                <label>Provincia </label>
+                <br>
+                    <select name="Provincia" required>
+                        <option value="" selected diasaled></option>
+                        <option value="1">Lugo</option>
+                        <option value="2">Ourense</option>
+                        <option value="3">Pontevedra</option>
+                        <option value="4">A Coruña</option>
+                    </select>
+                
+        </fieldset>
+        <br>
+        <input type="submit" value="Entrar" />
+        <input type="reset" value="Limpiar" />
+        
 </body>
 </html>
