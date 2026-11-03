@@ -8,8 +8,8 @@
     <form action="validar.php" method="get">
         <fieldset>
             <legend>Para datos personales </legend>
-            <label for="Teléfono">Teléfono</label>
-            <input type="tel" id="tel" name="tel" placeholder="9 números" autocomplete="mobile" maxlength="9">
+            <label for="tel">Teléfono</label>
+            <input type="tel" id="tel" name="tel" placeholder="9 números" autocomplete="mobile" maxlength="9" pattern="[0-9]{9}" title="Introduce solo 9 números">
             <br>
             <label for="Email">Correo electrónico</label>
             <input type="text" id="Email" name="Email" placeholder="El formato correcto es nombre+@+servidor de correo" maxlength="50" size="50" autocomplete="email">
@@ -65,7 +65,7 @@
         <button type="reset">
             <img src="limpiar_50_50.jpg" alt="Limpiar" width="50" height="50">
         </button>
-    
+    </form>
 </body>
 </html>
         
