@@ -1,0 +1,25 @@
+@charset "utf-8";
+body {
+    font-family:verdana
+    font-size 100px;
+
+}
+a:link {
+    Color:#C00;
+}
+
+a:visited {
+    color: green;
+
+}
+
+a:hover {
+    color:white;
+    text-decoration:none;
+    background-color:red
+    
+}
+
+a:active{
+    color:blue;
+}
