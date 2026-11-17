@@ -1,7 +1,15 @@
 @charset "utf-8";
 body {
-    font-family:verdana
-    font-size 100px;
+    font-family:verdana;
+
+}
+body h1 {
+    color:blue;
+    font: size 20px;
+}
+
+body li {
+    font-size:15px;
 
 }
 a:link {
