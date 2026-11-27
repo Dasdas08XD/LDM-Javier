@@ -1,0 +1,50 @@
+body {
+    color:blue;
+    font-size: 12pt;
+    font-family: Arial;
+    line-height: 450%;
+}
+p {
+    max-width:400px;
+    text-align: justify;
+    text-indent: 20px;
+    letter-spacing: 4px;
+}
+
+h1 {
+    color:red;
+    font-size:xx-large;
+    font-family: verdana;
+    max-width: 800;
+}
+h2 {
+    color:green;
+    font-size:x-large;
+    font-family: garamond;
+    font-style: italic;
+}
+strong{
+    max-width: normal;
+    text-transform: uppercase;
+}
+em {
+    font-style: normal;
+    text-decoration: underline;
+}
+
+a:link {
+    color:maroon
+}
+a:visited{
+    color:fuchsia
+}
+a:hover{
+    color:lime
+}
+a:active{
+    color:yellow
+}
+.eliminado{
+    text-decoration: line-through;
+    color:purple
+}
